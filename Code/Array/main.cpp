@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-/* Number of columns: it's constant, hence global */
-const int sizeX = 10;
+/* Number of columns: it's a macro */
+#define sizeX 10
 /* Number of rows: it's constant, hence global */
 const int sizeY = 4;
 
